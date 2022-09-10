@@ -1,0 +1,68 @@
+
+ <a href="#nosotros</a>
+
+  <form id="formulario" method="post">
+    <div class="titulo"><h3>Otorgar Turnos</h3></div>
+    <div>
+      <label for="nombreDeUsuario">Nombre:</label>
+      <i class="fas fa-user"></i>
+      <input
+        type="text"
+        id="name"
+        name="user_name"
+        id="nombreDeUsuario"
+        placeholder="Tu Nombre"
+      />
+      <i class="fas fa-exclamacion-circle failure-icon"></i>
+
+      <i class="far fa-check-circle success-icon"></i>
+
+      <div class="error"></div>
+    </div>
+
+    <div>
+      <label for="apellido">Apellido:</label>
+      <i class="fas fa-user"></i>
+
+      <input
+        type="text"
+        id="apellido"
+        name="user_apellido"
+        id="apellido"
+        placeholder="Tu Apellido"
+      />
+      <i class="fas fa-exclamacion-circle failure-icon"></i>
+
+      <i class="far fa-check-circle success-icon"></i> />
+    </div>
+    <div>
+      <label for="dni">Dni:</label>
+      <input type="text" id="dni" name="user_dni" placeholder="123" />
+
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+
+      <div class="error"></div>
+    </div>
+    <div>
+      <label for="correoElectronico">Correo electrónico:</label>
+      <i class="far fa-envelope"></i>
+      <input
+        type="email"
+        id="mail"
+        name="user_mail"
+        placeholder="abc@gmail.com"
+      />
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+
+      <div class="error"></div>
+    </div>
+
+    <div>
+      <label for="turno">Tu Turno</label>
+      <input type="turno" id="turno" name="user_turno" />
+    </div>
+
+    <button id="btn" type="submit">Enviar</button>
+  </form>
